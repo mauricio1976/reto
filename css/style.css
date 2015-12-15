@@ -601,7 +601,18 @@ div.reloj {
     position: absolute;
     bottom: 20px;
     right: 20px;
-}
+    }
+    /*---medios de pago---*/
+    
+    .mediosdepago {
+        height: 5em;
+        background-color: white;
+        font: normal 3.05em 'homizio_novaregular';
+        padding: 1.5em;
+        
+    
+    }
+
 /*--------------------Diamonds----------------------*/
 .diamonds {
     text-align: center;
