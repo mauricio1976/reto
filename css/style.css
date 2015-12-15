@@ -112,6 +112,11 @@ section {
     position: relative;
 }
 /*Section 1*/
+
+.mainlogo {
+    margin-bottom: 2.5em;
+
+}
 #intro {
     height: 100%;
     width: 100%;
@@ -128,7 +133,7 @@ section {
 #intro-text h1 {
     font: normal 104px 'Monserrat';
     color: #fff;
-    padding-top: 1em;
+    margin-top: 2em;
     display: none;
     -webkit-transition: font-size .5s ease;
     -moz-transition: font-size .5s ease;
@@ -373,11 +378,14 @@ div.reloj {
     display: flex;
     width: 100%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 4em;
+    
 }
 .article h1{
     max-width: 1000px;
     display: block;
+    text-align: justify;
+    font-size: 30px;
   
    
     
@@ -399,12 +407,12 @@ div.reloj {
     text-align: center;
 }
 #about h1 {
-    font: 400 1.1em 'Open Sans', sans-serif;
-    padding: 10px;
+    font: 400 1.5em'Open Sans', sans-serif;
+    padding: 0;
     line-height: 1.2;
-   
     position: relative;
     letter-spacing: -1px;
+    width: 100%;
 }
 #about h1 span, #about h4 span, #about p span {
     color: #3899DA;
@@ -448,7 +456,7 @@ div.reloj {
     padding: .3em 0.5em;
     background: rgba(255, 255, 255, 0.04);
     font: 400 1.8em 'Open Sans', sans-serif;
-    width: 14em;
+    width: 17em;
     text-transform: uppercase;
     display: inline-block;
     margin: 1.8% 5%;
