@@ -111,7 +111,7 @@ body.mobile {
 section {
     position: relative;
 }
-/*Section 1*/
+/*Intro*/
 
 .mainlogo {
     margin-bottom: 2.5em;
@@ -177,8 +177,9 @@ section {
     width: 40px;
 }
 
+/* fin Intro*/
 
-/* clock */ 
+/* clock-counter */ 
 
 .clock-counter{
     display: flex;
@@ -356,9 +357,9 @@ div.reloj {
 	position:relative;
 	top:1px;
 }
+/* fin clock-counter */
 
-
-/*Section 2*/
+/*Section 1*/
 #about {
     background-color: rgba(255, 255, 255, 0.97);
     display: block;
@@ -432,41 +433,9 @@ div.reloj {
     font: 300 1.3em 'Open Sans', sans-serif;
     color: #3D3D3D;
 }
-/*Section 3 */
-#services {
-    padding: 5em 1em;
-    text-align: center;
-    margin: 0 auto;
-    background: rgba(1, 35, 51, 0.5);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-#services>h2 {
-    font: normal 5em 'code_boldregular';
-    color: #27A7F1;
-    padding-bottom: .8em;
-}
-#services>h2 span {
-    color: #fff;
-    position: relative;
-}
-#services article div {
-    text-align: left;
-    color: #fff;
-    padding: .3em 0.5em;
-    background: rgba(255, 255, 255, 0.04);
-    font: 400 1.8em 'Open Sans', sans-serif;
-    width: 17em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin: 1.8% 5%;
-}
-#services article img {
-    float: left;
-    margin-right: .5em;
-}
-/*Section 4*/
+
+/*fin Section 1 */
+/*Section 2 */
 #process {
     background-color: rgba(255, 255, 255, 0.97);
     text-align: center;
@@ -502,7 +471,44 @@ div.reloj {
     padding-top: 3em;
     color: #585858;
 }
-/*Section 5*/
+
+/*section 3*/
+
+#services {
+    padding: 5em 1em;
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(1, 35, 51, 0.5);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#services>h2 {
+    font: normal 5em 'code_boldregular';
+    color: #27A7F1;
+    padding-bottom: .8em;
+}
+#services>h2 span {
+    color: #fff;
+    position: relative;
+}
+#services article div {
+    text-align: left;
+    color: #fff;
+    padding: .3em 0.5em;
+    background: rgba(255, 255, 255, 0.04);
+    font: 400 1.8em 'Open Sans', sans-serif;
+    width: 17em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1.8% 5%;
+}
+#services article img {
+    float: left;
+    margin-right: .5em;
+}
+
+/*Section 4*/
 #portfolio {
     padding: 0 0 5em;
     text-align: center;
@@ -614,7 +620,7 @@ div.reloj {
     
     }
 .medios-pago {
-    float: right;
+    display: inline-flex;
 }
 
 /*--------------------Diamonds----------------------*/
@@ -940,7 +946,7 @@ div.reloj {
     padding: 0 10px 14px;
     line-height: 1;
 }
-
+/*Footer*/
 .footer {
     display: inline-flex;
    justify-content: space-between;
