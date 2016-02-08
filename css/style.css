@@ -58,7 +58,7 @@ body.mobile {
     background-size: cover;
 }
 
-
+'
 }
 #video-bg {
     position: fixed;
@@ -180,35 +180,39 @@ section {
 /* fin Intro*/
 
 /* clock-counter */ 
-
-.clock-counter{
-    display: flex;
-    flex-direction: row;
-    position:absolute;
-    width: 100vw;
-    justify-content: space-around;
-    height: 300px;
+#clock-counter {
     background-color:#19BBD6;
-		}
-div.reloj {
-    background-color: #19BBD6;
     display: flex;
-    padding: 20px;
-  
-  }
-.promodiv { display: table;
+   
 }
-.promo {
-    display: inline-flex;
+.clock-promo {
+    
+    
+    display: block;
+    padding: 1.5em 1em;
+}
+.clock-promo h1 {
     font: normal 3.05em 'homizio_novaregular';
-    display: block;
+    
 }
-.promo-reloj{
-    display: block;
+.clock-promo h2 {
     font: 600 1.4em 'Open Sans', sans-serif;
 }
+.quedan {
+    align-self: center;
+}
+    
+
+.button {
+    margin-left: 0;
+    padding-left: 0;
+    align-self: center;
+    
+}
+    
 .clockrun {
-    margin-left: 60px;
+     align-items: stretch;
+     align-self: center;
     
 }
 
@@ -369,33 +373,45 @@ div.reloj {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .logo-section {
-   
+    
+    display:block; 
     text-align: center;
-    margin: 0;
-  
 }
-.calculadora-article {
+
+.about-main {
     display: flex;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 4em;
+    height: 100%;
     
 }
-.article h1{
-    max-width: 1000px;
+
+.calculadora {
+    
+    display: inline-flex;
+    width: 100%;
+     position: relative;
+
+}
+.about-article {
+    
     display: block;
     text-align: justify;
-    font-size: 30px;
-  
-   
+    margin-right: 2em;
     
 }
-#about aside {
-    max-width: 600px;
-    display: block;
-    margin-top: 10px;
+
+.about-article h1 {
+    font: 400 1.5em'Open Sans', sans-serif;
 }
+    
+
+
+.about-button {
+    display: block;
+    
+}
+
 
 #about h5 {
     font: 600 1.4em 'Open Sans', sans-serif;
@@ -508,6 +524,8 @@ div.reloj {
     margin-right: .5em;
 }
 
+
+
 /*Section 4*/
 #portfolio {
     padding: 0 0 5em;
@@ -616,10 +634,17 @@ div.reloj {
         background-color: white;
         font: normal 3.05em 'homizio_novaregular';
         padding: 1.5em;
-        
-    
     }
 .medios-pago {
+    display: inline-flex;
+}
+.medios-logos {
+     display: flex;
+     justify-content: space-between;
+     
+ }
+.medios-payu .medios-via .medios-baloto .medios-pse {
+    
     display: inline-flex;
 }
 
@@ -949,11 +974,12 @@ div.reloj {
 /*Footer*/
 .footer {
     display: inline-flex;
-   justify-content: space-between;
+    justify-content: space-between;
     margin: 0;
     width: 100%;
     align-items: center;
     background-color: white;
+   
 }
 /*------------------------Pace------------------------*/
 .pace {
